@@ -8,7 +8,7 @@ driver=webdriver.Chrome()
 driver.maximize_window()
 driver.get(base_url)
 
-def script_execution(driver,element_exe):
+def execute_js_script(driver,element_exe):
     driver.execute_script("arguments[0].click()",element_exe)
     time.sleep(1)
 
@@ -25,7 +25,7 @@ def handliing_windows(driver):
     
 
 element=driver.find_element(By.XPATH, '//h5[contains(text(),"Alerts, Frame & Windows")]')
-script_execution(driver, element)
+execute_js_script(driver, element)
 driver.find_element(By.XPATH, "//span[contains(text(),'Browser Windows')]").click()
 print(driver.title)
 driver.find_element(By.ID,"tabButton").click()

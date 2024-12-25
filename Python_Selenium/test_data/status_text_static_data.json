@@ -1,0 +1,30 @@
+{
+    "created": {
+        "status": "201",
+        "text": "Created"
+    },
+    "no-content": {
+        "status": "204",
+        "text": "No Content"
+    },
+    "moved": {
+        "status": "301",
+        "text": "Moved Permanently"
+    },
+    "bad-request": {
+        "status": "400",
+        "text": "Bad Request"
+    },
+    "unauthorized": {
+        "status": "401",
+        "text": "Unauthorized"
+    },
+    "forbidden": {
+        "status": "403",
+        "text": "Forbidden"
+    },
+    "invalid-url": {
+        "status": "404",
+        "text": "Not Found"
+    }
+}

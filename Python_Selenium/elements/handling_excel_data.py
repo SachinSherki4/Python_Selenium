@@ -8,9 +8,9 @@ workboox=load_workbook(excel_file)
 sheet=workboox['DEMOQA']
 
 json_data={
-  "firstname": "Rahul",
-  "lastname": "Jaykar",
-  "email": "rjaykar@example.com",
+  "firstName": "Rahul",
+  "lastName": "Jaykar",
+  "userEmail": "rjaykar@example.com",
   "age": 30,
   "salary": 75000,
   "department": "Engineering"
